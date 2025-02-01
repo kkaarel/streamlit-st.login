@@ -34,7 +34,7 @@ if user_data and user_data.get("is_logged_in", False):
     if "email" in user_data and user_data["email"]:
         st.write(f"Email: {user_data['email']}")
     if "preferred_username" in user_data and user_data["preferred_username"]:
-        st.write(f"Prefered Username: {user_data['preferred_username']}")
+        st.write(f"Preferred Username: {user_data['preferred_username']}")
 
     # Allow file upload
     st.write("You are logged in, you can upload files.")
